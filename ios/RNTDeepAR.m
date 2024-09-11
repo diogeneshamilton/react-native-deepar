@@ -7,8 +7,7 @@
 //
 
 #import "RNTDeepAR.h"
-#import "React/UIView+React.h"
-#import <CameraController.h>
+#import <React/UIView+React.h>
 #import <Foundation/Foundation.h>
 
 @implementation RNTDeepAR {
@@ -30,7 +29,7 @@ AVCaptureDevicePosition _cameraPosition;
   [self.deepar initialize];
   self.deepar.delegate = self;
 
-  self.arview = (ARView *)[self.deepar
+  self.arview = [self.deepar
       createARViewWithFrame:[UIScreen mainScreen].bounds];
   [self insertSubview:self.arview atIndex:0];
   self.cameraController = [[CameraController alloc] init];
@@ -58,7 +57,6 @@ AVCaptureDevicePosition _cameraPosition;
 }
 
 - (void)setCameraPosition:(NSString *)cameraPosition {
-
   _cameraPosition = [cameraPosition isEqual:@"back"]
                         ? AVCaptureDevicePositionBack
                         : AVCaptureDevicePositionFront;
@@ -66,16 +64,25 @@ AVCaptureDevicePosition _cameraPosition;
   if (self.arview) {
     self.cameraController.position = _cameraPosition;
 
-    NSString *const AVCaptureDevicePosition_toString[] = {
-        [AVCaptureDevicePositionUnspecified] = @"unspecified",
-        [AVCaptureDevicePositionBack] = @"back",
-        [AVCaptureDevicePositionFront] = @"front",
-    };
+    NSString *positionString;
+    switch (_cameraPosition) {
+      case AVCaptureDevicePositionBack:
+        positionString = @"back";
+        break;
+      case AVCaptureDevicePositionFront:
+        positionString = @"front";
+        break;
+      default:
+        positionString = @"unspecified";
+        break;
+    }
 
-    self.onEventSent(@{
-      @"type" : @"cameraSwitched",
-      @"value" : AVCaptureDevicePosition_toString[_cameraPosition]
-    });
+    if (self.onEventSent) {
+      self.onEventSent(@{
+        @"type" : @"cameraSwitched",
+        @"value" : positionString
+      });
+    }
   }
 }
 
