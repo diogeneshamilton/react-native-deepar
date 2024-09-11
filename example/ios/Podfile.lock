@@ -1,6 +1,7 @@
 PODS:
   - boost (1.76.0)
   - CocoaAsyncSocket (7.6.5)
+  - DeepAR (5.6.9)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.71.11)
   - FBReactNativeSpec (0.71.11):
@@ -335,7 +336,8 @@ PODS:
     - react-native-config/App (= 1.5.1)
   - react-native-config/App (1.5.1):
     - React-Core
-  - react-native-deepar (0.10.5):
+  - react-native-deepar (0.11.0):
+    - DeepAR
     - React-Core
   - react-native-safe-area-context (4.6.3):
     - RCT-Folly
@@ -479,7 +481,6 @@ DEPENDENCIES:
   - React-callinvoker (from `../node_modules/react-native/ReactCommon/callinvoker`)
   - React-Codegen (from `build/generated/ios`)
   - React-Core (from `../node_modules/react-native/`)
-  - React-Core/DevSupport (from `../node_modules/react-native/`)
   - React-Core/RCTWebSocket (from `../node_modules/react-native/`)
   - React-CoreModules (from `../node_modules/react-native/React/CoreModules`)
   - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
@@ -513,6 +514,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - CocoaAsyncSocket
+    - DeepAR
     - Flipper
     - Flipper-Boost-iOSX
     - Flipper-DoubleConversion
@@ -615,6 +617,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 57d2868c099736d80fcd648bf211b4431e51a558
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DeepAR: 98a171e812a33cdc134bc37380a37352d5375d17
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
   FBLazyVector: c511d4cd0210f416cb5c289bd5ae6b36d909b048
   FBReactNativeSpec: a911fb22def57aef1d74215e8b6b8761d25c1c54
@@ -648,7 +651,7 @@ SPEC CHECKSUMS:
   React-logger: 186dd536128ae5924bc38ed70932c00aa740cd5b
   react-native-cameraroll: 755bcc628148a90a7c9cf3f817a252be3a601bc5
   react-native-config: 86038147314e2e6d10ea9972022aa171e6b1d4d8
-  react-native-deepar: de4b6380a281df3d66751d35fa4c5a21c42cbf3b
+  react-native-deepar: 013ba21abc937c6484e369694283756804e618b3
   react-native-safe-area-context: 36cc67648134e89465663b8172336a19eeda493d
   react-native-video: c26780b224543c62d5e1b2a7244a5cd1b50e8253
   React-perflogger: e706562ab7eb8eb590aa83a224d26fa13963d7f2
@@ -672,4 +675,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 15621f26fc54c7ff72c58b29210439ce6a2208dc
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2

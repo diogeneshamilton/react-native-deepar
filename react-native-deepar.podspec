@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64' }
 
   s.source_files = "ios/**/*.{h,m,mm}"
-  s.vendored_frameworks = "ios/Frameworks/*.xcframework"
 
   s.dependency "React-Core"
+  s.dependency "DeepAR"
 end

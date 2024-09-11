@@ -10,20 +10,20 @@
 		00CB5FFF345142BFAB073EFA /* emotions_exaggerator in Resources */ = {isa = PBXBuildFile; fileRef = 21E599B7B73441AC8CDD9DE9 /* emotions_exaggerator */; };
 		00E356F31AD99517003FC87E /* DeepARExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DeepARExampleTests.m */; };
 		0C800B54079A4B75BE19101B /* hair_segmentation in Resources */ = {isa = PBXBuildFile; fileRef = 4698676F8707465EBB568538 /* hair_segmentation */; };
-		0C80B921A6F3F58F76C31292 /* libPods-DeepARExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-DeepARExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		13EB6700CA3740C188E57846 /* aviators in Resources */ = {isa = PBXBuildFile; fileRef = B09D89ABE8F949F486790E89 /* aviators */; };
 		1818FD18A21C41CA8A467D77 /* scuba in Resources */ = {isa = PBXBuildFile; fileRef = 17DCCF2F555749CBB5B344E4 /* scuba */; };
+		1ACDDED8D8755C3B6BC2E744 /* libPods-DeepARExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439BAF04F1B85A93943C55D /* libPods-DeepARExample.a */; };
 		298685AB69E1464D94C8EA6F /* topology in Resources */ = {isa = PBXBuildFile; fileRef = D4B0CF3C226042C7ADD4387F /* topology */; };
 		319E970ED83B4209BFE41416 /* look2 in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9B35DF6DB4EE8A2277B54 /* look2 */; };
+		3F083A41D21076BF0FB1BD82 /* libPods-DeepARExample-DeepARExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0725B0B844845DF0045BB02 /* libPods-DeepARExample-DeepARExampleTests.a */; };
 		475D079FB8A344BEA79ED17D /* fairy_lights in Resources */ = {isa = PBXBuildFile; fileRef = E549236312D347BAA5DD917F /* fairy_lights */; };
 		4CEE6FC964E54856AE4580A7 /* tape_face in Resources */ = {isa = PBXBuildFile; fileRef = 0914D8FB54A14A1388D5D360 /* tape_face */; };
 		6156868CD2904CB993B3EC3E /* background_segmentation in Resources */ = {isa = PBXBuildFile; fileRef = 9B6D4B8FF2C04AA2ABD9148C /* background_segmentation */; };
 		686B9C0FA84547E8B3EAA685 /* beard in Resources */ = {isa = PBXBuildFile; fileRef = A00A8A52A5514A3B9DD69BC3 /* beard */; };
 		6EB1AFA50D1D472FB84AFF4C /* frankenstein in Resources */ = {isa = PBXBuildFile; fileRef = FBDA78A7D19B4C8AA649D5EA /* frankenstein */; };
-		7699B88040F8A987B510C191 /* libPods-DeepARExample-DeepARExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DeepARExample-DeepARExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8A717FA1BBE24B9DBEF78C79 /* face_painting in Resources */ = {isa = PBXBuildFile; fileRef = 8BAE8EF3D6FD4F46BC465F83 /* face_painting */; };
 		922FB68A931C451DA003B26C /* plastic_ocean in Resources */ = {isa = PBXBuildFile; fileRef = 6E56DDABDDDF4A3F997C7304 /* plastic_ocean */; };
@@ -67,23 +67,21 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DeepARExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DeepARExample/main.m; sourceTree = "<group>"; };
 		17DCCF2F555749CBB5B344E4 /* scuba */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = scuba; path = ../assets/effects/scuba; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-DeepARExample-DeepARExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepARExample-DeepARExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E599B7B73441AC8CDD9DE9 /* emotions_exaggerator */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = emotions_exaggerator; path = ../assets/effects/emotions_exaggerator; sourceTree = "<group>"; };
 		2715548AD30B491D9782100D /* manly_face */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = manly_face; path = ../assets/effects/manly_face; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-DeepARExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample.debug.xcconfig"; path = "Target Support Files/Pods-DeepARExample/Pods-DeepARExample.debug.xcconfig"; sourceTree = "<group>"; };
 		3ED9B35DF6DB4EE8A2277B54 /* look2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = look2; path = ../assets/effects/look2; sourceTree = "<group>"; };
 		43AB9FB8D98F4493A642F7BC /* flower_crown */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = flower_crown; path = ../assets/effects/flower_crown; sourceTree = "<group>"; };
 		4698676F8707465EBB568538 /* hair_segmentation */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = hair_segmentation; path = ../assets/effects/hair_segmentation; sourceTree = "<group>"; };
 		553826421ACE4AA1BC7F91BA /* pumpkin */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = pumpkin; path = ../assets/effects/pumpkin; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-DeepARExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample.release.xcconfig"; path = "Target Support Files/Pods-DeepARExample/Pods-DeepARExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-DeepARExample-DeepARExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample-DeepARExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-DeepARExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepARExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57362811926588A679952594 /* Pods-DeepARExample-DeepARExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample-DeepARExampleTests.release.xcconfig"; path = "Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		620A4AECB3654FC3B0BAD990 /* ping_pong */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ping_pong; path = ../assets/effects/ping_pong; sourceTree = "<group>"; };
 		6442CE00FBE943318DEC230E /* viking_helmet */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = viking_helmet; path = ../assets/effects/viking_helmet; sourceTree = "<group>"; };
 		6E56DDABDDDF4A3F997C7304 /* plastic_ocean */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = plastic_ocean; path = ../assets/effects/plastic_ocean; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DeepARExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-DeepARExample-DeepARExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample-DeepARExampleTests.release.xcconfig"; path = "Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8439BAF04F1B85A93943C55D /* libPods-DeepARExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepARExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0D5C02B6CB28DDF863108A /* Pods-DeepARExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample.debug.xcconfig"; path = "Target Support Files/Pods-DeepARExample/Pods-DeepARExample.debug.xcconfig"; sourceTree = "<group>"; };
 		8BAE8EF3D6FD4F46BC465F83 /* face_painting */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = face_painting; path = ../assets/effects/face_painting; sourceTree = "<group>"; };
+		90CCA18060EAE3907CB9AA43 /* Pods-DeepARExample-DeepARExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample-DeepARExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94029A43571E45E681C4C2B8 /* humanoid */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = humanoid; path = ../assets/effects/humanoid; sourceTree = "<group>"; };
 		9911BA2EC461446CB9CCDF23 /* look1 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = look1; path = ../assets/effects/look1; sourceTree = "<group>"; };
 		9B6D4B8FF2C04AA2ABD9148C /* background_segmentation */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = background_segmentation; path = ../assets/effects/background_segmentation; sourceTree = "<group>"; };
@@ -98,7 +96,9 @@
 		DAA11144EB104BCB9C6D8CF2 /* beauty */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = beauty; path = ../assets/effects/beauty; sourceTree = "<group>"; };
 		E316CE9D28885FA300601329 /* DeepAR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DeepAR.xcframework; path = ../../ios/Frameworks/DeepAR.xcframework; sourceTree = "<group>"; };
 		E549236312D347BAA5DD917F /* fairy_lights */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fairy_lights; path = ../assets/effects/fairy_lights; sourceTree = "<group>"; };
+		EB17F2963D71D659FA54CCFD /* Pods-DeepARExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepARExample.release.xcconfig"; path = "Target Support Files/Pods-DeepARExample/Pods-DeepARExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0725B0B844845DF0045BB02 /* libPods-DeepARExample-DeepARExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeepARExample-DeepARExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDA78A7D19B4C8AA649D5EA /* frankenstein */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = frankenstein; path = ../assets/effects/frankenstein; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-DeepARExample-DeepARExampleTests.a in Frameworks */,
+				3F083A41D21076BF0FB1BD82 /* libPods-DeepARExample-DeepARExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E316CE9E28885FA300601329 /* DeepAR.xcframework in Frameworks */,
-				0C80B921A6F3F58F76C31292 /* libPods-DeepARExample.a in Frameworks */,
+				1ACDDED8D8755C3B6BC2E744 /* libPods-DeepARExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +158,8 @@
 			children = (
 				E316CE9D28885FA300601329 /* DeepAR.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-DeepARExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-DeepARExample-DeepARExampleTests.a */,
+				8439BAF04F1B85A93943C55D /* libPods-DeepARExample.a */,
+				F0725B0B844845DF0045BB02 /* libPods-DeepARExample-DeepARExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,10 +233,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-DeepARExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-DeepARExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-DeepARExample-DeepARExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-DeepARExample-DeepARExampleTests.release.xcconfig */,
+				8B0D5C02B6CB28DDF863108A /* Pods-DeepARExample.debug.xcconfig */,
+				EB17F2963D71D659FA54CCFD /* Pods-DeepARExample.release.xcconfig */,
+				90CCA18060EAE3907CB9AA43 /* Pods-DeepARExample-DeepARExampleTests.debug.xcconfig */,
+				57362811926588A679952594 /* Pods-DeepARExample-DeepARExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -248,12 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DeepARExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				D2900EE1D957DA4976B6BED4 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				09434D9E881A14A7B6E05FF8 /* [CP] Embed Pods Frameworks */,
+				518F58E5182AEF4777271CD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,14 +269,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DeepARExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				9D3BE8B9E9333C37FDD555A5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				F3E44FFCF9DCB72235F2F206 /* [CP] Embed Pods Frameworks */,
+				FB690D607D05ADADB1E7DB95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -386,46 +386,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		09434D9E881A14A7B6E05FF8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		518F58E5182AEF4777271CD9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeepARExample-DeepARExampleTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		9D3BE8B9E9333C37FDD555A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,24 +442,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		D2900EE1D957DA4976B6BED4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepARExample-DeepARExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		F3E44FFCF9DCB72235F2F206 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB690D607D05ADADB1E7DB95 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,23 +496,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample/Pods-DeepARExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepARExample-DeepARExampleTests/Pods-DeepARExample-DeepARExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -550,7 +550,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-DeepARExample-DeepARExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 90CCA18060EAE3907CB9AA43 /* Pods-DeepARExample-DeepARExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -577,7 +577,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-DeepARExample-DeepARExampleTests.release.xcconfig */;
+			baseConfigurationReference = 57362811926588A679952594 /* Pods-DeepARExample-DeepARExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -601,14 +601,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-DeepARExample.debug.xcconfig */;
+			baseConfigurationReference = 8B0D5C02B6CB28DDF863108A /* Pods-DeepARExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BNWU93MVU2;
+				DEVELOPMENT_TEAM = KYY673C2MJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DeepARExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -632,14 +632,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-DeepARExample.release.xcconfig */;
+			baseConfigurationReference = EB17F2963D71D659FA54CCFD /* Pods-DeepARExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BNWU93MVU2;
+				DEVELOPMENT_TEAM = KYY673C2MJ;
 				INFOPLIST_FILE = DeepARExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
