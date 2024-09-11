@@ -8,11 +8,7 @@
 #ifndef RNTCameraModule_h
 #define RNTCameraModule_h
 
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#else
-#import <React/RCTBridgeModule.h>
-#endif
+#import "React/RCTBridgeModule.h"
 
 @interface RNTCameraModule : NSObject <RCTBridgeModule>
 @end
